@@ -6,4 +6,4 @@
         runs-on: ubuntu-latest
         steps:
           - name: Print Info
-            run: echo "${{ toJson(github) }}"
+            run: echo "${{ toJSON(github) }}"
